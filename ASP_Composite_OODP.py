@@ -1,3 +1,11 @@
+# Here, this is a simple implementation of a file system.
+# Each object of either File class or Folder class has there specific methods
+# Using those, you can:
+#   ->print file/folder names
+#   ->Add files to folders
+#   ->Remove files from folder
+
+
 import collections
 
 class File:
