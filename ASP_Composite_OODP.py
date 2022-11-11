@@ -33,13 +33,18 @@ class Folder:
     
 movies = Folder("movies")
 avatar = File("avatar.mp4")
+
+#These lines are used to print folder and file names
 avatar.print_file_name()
 movies.print_folder_name()
 
+#In these lines, I added files to a folder and deleted form the folder
 movies.add_file_to_folder("test_movie.mp4")
 movies.remove_file_from_folder("test_movie.mp4")
 
+#Here, I created a folder named "romance" romance and added a file named "love.mp4"
 romance = Folder("romance")
 romance.add_file_to_folder("love.mp4")
 
+# Here, I added the folder "romance" in the folder "movies"
 movies.add_folder_to_folder("romance", romance.folder)
